@@ -1,0 +1,47 @@
+@tailwind utilities;
+
+@layer utilities {
+  .rootContainer {
+    @apply flex justify-center
+  }
+
+  .rootWrapper {
+    @apply w-full sm:w-[90%]
+  }
+
+  .rootWrapperLg {
+    @apply w-full sm:w-[1024px]
+  }
+
+  .rootWrapperMd {
+    @apply w-full sm:w-[768px]
+  }
+
+  .rootWrapperSm {
+    @apply w-full sm:w-[640px]
+  }
+
+  .rootWrapper480 {
+    @apply w-full sm:w-[480px]
+  }
+
+  .rootWrapper320 {
+    @apply w-full sm:w-[320px]
+  }
+
+  .boxRounded {
+    @apply border bg-gray-100 text-inherit rounded-full cursor-pointer
+  }
+
+  .boxRoundedOnHover {
+    @apply bg-transparent hover:bg-gray-100 hover:text-inherit rounded-full cursor-pointer
+  }
+
+  .mutedBorder {
+    @apply border-gray-500
+  }
+
+  .mutedBg {
+    @apply bg-gray-500
+  }
+}

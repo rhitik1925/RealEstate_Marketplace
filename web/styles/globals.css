@@ -1,0 +1,42 @@
+@import './container.css';
+@import './flex.css';
+@import './grid.css';
+@import './typography.css';
+@import './dimension.css';
+@import './form.css';
+@import './misc.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  @apply font-[family-name:var(--font-geist-sans)]
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+i,
+em,
+var,
+span,
+address {
+  font-style: normal;
+  display: inline-block;
+}
+
+label {
+  cursor: pointer;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: none;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}

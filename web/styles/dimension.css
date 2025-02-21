@@ -1,0 +1,75 @@
+@tailwind utilities;
+
+@layer utilities {
+  .dim-1 {
+    @apply w-1 h-1
+  }
+
+  .dim-2 {
+    @apply w-2 h-2
+  }
+
+  .dim-2-5 {
+    @apply w-2.5 h-2.5
+  }
+
+  .dim-3 {
+    @apply w-3 h-3
+  }
+
+  .dim-4 {
+    @apply w-4 h-4
+  }
+
+  .dim-5 {
+    @apply w-5 h-5
+  }
+
+  .dim-6 {
+    @apply w-6 h-6
+  }
+
+  .dim-7 {
+    @apply w-7 h-7
+  }
+
+  .dim-8 {
+    @apply w-8 h-8
+  }
+
+  .dim-9 {
+    @apply w-9 h-9
+  }
+
+  .dim-10 {
+    @apply w-10 h-10
+  }
+
+  .dim-12 {
+    @apply w-12 h-12
+  }
+
+  .dim-16 {
+    @apply w-16 h-16
+  }
+
+  .dim-20 {
+    @apply w-20 h-20
+  }
+
+  .dim-24 {
+    @apply w-24 h-24
+  }
+
+  .dim-28 {
+    @apply w-28 h-28
+  }
+
+  .dim-32 {
+    @apply w-32 h-32
+  }
+
+  .dim-40 {
+    @apply w-40 h-40
+  }
+}

@@ -1,0 +1,51 @@
+@tailwind utilities;
+
+@layer utilities {
+  .flexCentered {
+    @apply flex min-h-screen items-center justify-center
+  }
+
+  .flexCenter {
+    @apply flex items-center
+  }
+
+  .flexEnd {
+    @apply flex items-end
+  }
+
+  .flexStartBetween {
+    @apply flex items-start justify-between
+  }
+
+  .flexCenterBetween {
+    @apply flex items-center justify-between
+  }
+
+  .flexCenterCenter {
+    @apply flex items-center justify-center
+  }
+
+  .flexCenterEnd {
+    @apply flex items-center justify-end
+  }
+
+  .flexCol {
+    @apply flex flex-col
+  }
+
+  .flexColCentered {
+    @apply flex flex-col min-h-screen items-center justify-center
+  }
+
+  .flexColCenter {
+    @apply flex flex-col items-center
+  }
+
+  .flexColEnd {
+    @apply flex flex-col items-end
+  }
+
+  .flexColCenterCenter {
+    @apply flex flex-col items-center justify-center
+  }
+}
